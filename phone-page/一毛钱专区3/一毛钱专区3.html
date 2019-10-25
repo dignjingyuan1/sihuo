@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="applicable-device" content="pc">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-eqiv="cleartype" content="ON">
+  <link href="videoonline.css" rel="stylesheet" type="text/css" />
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+  <div class="panel">
+
+    <!-- 视频开始 -->
+    <div class="banner" style="position: relative">
+      <img id="videoImg" style="width: 100%; height: 15rem;" src="../../img/banner1-1.png">
+      <img id="videoButton" class="video-play-button" onclick="playVideo()" src="../../img/video-play.png" alt="">
+      <video id="videoPlay" style="display: none" class="video-content" controls="controls">
+        <source src="https://www.runoob.com/try/demo_source/movie.ogg" type="video/ogg">
+        <source src="movie.mp4" type="video/mp4">
+      </video>
+    </div>
+    <!-- 视频结束 -->
+    <!-- tab按钮开始 -->
+    <div class="panel-width search-box">
+      <div class="button-box">
+        <button class="tab-button button-act">课程</button>
+      </div>
+      <i style="width:1px;height: 2.5rem;background:#ccc;margin-top: 0.6rem;"></i>
+      <div class="button-box">
+        <button class="tab-button">专家简介</button>
+      </div>
+    </div>
+    <!-- tab按钮结束 -->
+
+    <!-- 介绍开始 -->
+    <div class="panel-width" style="padding: 0 0.5rem;">
+      <div class="class-title">
+        <p class="class-text">介绍</p>
+      </div>
+      <div class="panel-width desc-text" style="padding: 0 0.5rem;">
+        爱的色放看见爱上了肯德基福利卡akdfjlasd；拉克丝打飞机爱的色放看见爱上了肯德基福利卡akdfj
+      </div>
+    </div>
+    <!-- 介绍结束 -->
+    <div class="panel-width" style="padding: 0 0.5rem;">
+      <div class="class-title">
+        <p class="class-text">课程表</p>
+      </div>
+      <div class="panel-width">
+        <div class="class-item">
+          <img onclick="play(this)" class="play-button" src="../../img/play-act.png" alt="">
+          <p onclick="play(this)" class="class-item-title tilte-act">第一节课程介绍<br><span
+              style="font-size: 12px;color: #999999;">学习中|2:30|2.4w学习</span>
+          </p>
+          <img onclick="checkOnclick(this)" class="checkbox-img" src="../../img/checkbox.png" alt="">
+        </div>
+        <div class="class-item">
+          <img onclick="play(this)" class="play-button" src="../../img/play-hui.png" alt="">
+          <p onclick="play(this)" class="class-item-title">第一节课程介绍<br><span
+              style="font-size: 12px;color: #999999;">学习中|2:30|2.4w学习</span>
+          </p>
+          <img onclick="checkOnclick(this)" class="checkbox-img" src="../../img/checkbox-hui.png" alt="">
+        </div>
+        <div class="class-item">
+          <img onclick="play(this)" class="play-button" src="../../img/play-hui.png" alt="">
+          <p onclick="play(this)" class="class-item-title">第一节课程介绍<br><span
+              style="font-size: 12px;color: #999999;">学习中|2:30|2.4w学习</span>
+          </p>
+          <img onclick="checkOnclick(this)" class="checkbox-img" src="../../img/checkbox-hui.png" alt="">
+        </div>
+        <div class="class-item">
+          <img onclick="play(this)" class="play-button" src="../../img/play-hui.png" alt="">
+          <p onclick="play(this)" class="class-item-title">第一节课程介绍<br><span
+              style="font-size: 12px;color: #999999;">学习中|2:30|2.4w学习</span>
+          </p>
+          <img onclick="checkOnclick(this)" class="checkbox-img" src="../../img/checkbox-hui.png" alt="">
+        </div>
+        <div class="class-item">
+          <img onclick="play(this)" class="play-button" src="../../img/play-hui.png" alt="">
+          <p onclick="play(this)" class="class-item-title">第一节课程介绍<br><span
+              style="font-size: 12px;color: #999999;">学习中|2:30|2.4w学习</span>
+          </p>
+          <img onclick="checkOnclick(this)" class="checkbox-img" src="../../img/checkbox-hui.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- 我要提问底部 开始 -->
+    <div class="panel-width quostion-footer">
+      <p class="price"><span style="font-size: 15px">￥</span>0.01</p>
+      <p class="hui-text"><span style="text-decoration:line-through">原价￥399</span><br>16人已经购买学习</p>
+      <button class="quastion-button">立即购买</button>
+    </div>
+    <!-- 我要提问底部 结束 -->
+  </div>
+  <!-- footer bar -->
+  <div class="footer-bar">
+    <div class="footer-item">
+      <img src="../../img/index-hui.png" alt="">
+      <p>首页</p>
+    </div>
+    <div class="footer-item">
+      <img src="../../img/class-active.png" alt="">
+      <p class="font-act">课程</p>
+    </div>
+    <div class="footer-item">
+      <img src="../../img/jingpin-hui.png" alt="">
+      <p>精品</p>
+    </div>
+    <div class="footer-item">
+      <img src="../../img/my-hui.png" alt="">
+      <p>我的</p>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="./videoonline.js"></script>
+
+
+</html>
